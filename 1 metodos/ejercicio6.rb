@@ -6,13 +6,16 @@
 # *****
 # *****
 
+
 def draw_line(size)
-  '*' * size
+    size.times do
+        puts "Lineas"
+    end
 end
 
 def draw_lines(size)
-  size.times { }
+  draw_line(2)
 end
 
-draw_line 2
-draw_lines 10
+
+draw_lines(10)
