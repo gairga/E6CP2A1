@@ -3,5 +3,9 @@
 # hint: El método .include? de un string busca si un caracter
 # o string dado está contenido en éste.
 
+def busca_caracter(cadena,caracter)
+	puts cadena + busca_caracter
+end
+
 cadena = 'Hola Mundo!'
 caracter = 'o'

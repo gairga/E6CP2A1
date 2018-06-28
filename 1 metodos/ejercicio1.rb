@@ -1,9 +1,9 @@
 # Optimiza el código utilizando tu editor de texto.
-# hint: Debes utilizar 'rubocop'
+# hint: Debes utilizar 'rubocop
 # y no obtener errores ni warnings.
 
 def par(x)
-  if x % 2 == 0
+  if x.even? 
     return true
   else
     return false
